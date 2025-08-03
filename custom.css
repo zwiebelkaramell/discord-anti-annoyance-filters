@@ -90,3 +90,18 @@ div[class*=channelTextArea_]>div>div>div[class*=buttons_]>button[aria-haspopup=d
 [aria-label="Send a gift"]{
 	display: none;
 }
+
+/* removes clan tags */
+[class*="clanTag"]{
+	display: none;
+}
+
+/* removes some kind of game launcher from message bar */
+[class*="app-launcher-entrypoint"]{
+	display: none;
+}
+
+/* removes boost nag from to of channel bar */
+[class="container__0d0f9"]{
+	display: none;
+}
