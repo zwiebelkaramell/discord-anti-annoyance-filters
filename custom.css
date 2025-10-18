@@ -105,3 +105,13 @@ div[class*=channelTextArea_]>div>div>div[class*=buttons_]>button[aria-haspopup=d
 [class="container__0d0f9"]{
 	display: none;
 }
+
+/* removes animated avatar decorations */
+[class*="avatarDecoration"]{
+	display: none;
+}
+
+/*removes quest tab from friends section*/
+[href="/quest-home"]{
+	display: none;
+}
